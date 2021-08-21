@@ -1,0 +1,38 @@
+
+/* Pseudo class */
+
+.btn{
+    background-color: pink;
+    color: darkblue;
+}
+
+.btn:hover{
+    background-color: purple;
+    color: red;
+}
+
+.btn:active{
+    background-color: black;
+    color: yellow;
+}
+
+.btn:focus{
+    background-color: yellow;
+    color: green;
+}
+
+/* Pseudo elements */
+
+.para::before{
+    content: "My name is:";
+    color: blue;
+}
+
+.para::after{
+    content: " Byju";
+    color: black;
+}
+
+.para::selection{
+    background-color: green;
+}
